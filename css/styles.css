@@ -7,12 +7,13 @@
     --cloud-cl: #F4F4FD;
 
     --main-font: Roboto, sans-serif;
-    --secondary-font: Raleway, serif;
+    --secondary-font: Raleway, sans-serif;
 }
 
 body {
-    color: var(--navyblue-cl);
+    color: var(--slate-cl);
     font-family: var(--main-font);
+    background-color: var(--white-cl);
 }
 
 /**
@@ -23,7 +24,6 @@ address {
 }
 
 img {
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -45,7 +45,9 @@ img {
     letter-spacing: 0.04em;
     font-weight: 500;
     text-align: center;
+    font-size: 16px;
 }
+
 
 .logo-link {
     font-family: var(--secondary-font);
@@ -54,6 +56,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--iris-cl);
 }
 
 .logo-accent {
@@ -94,17 +97,25 @@ img {
     color: var(--ocaen-cl);
 }
 
+.header-logo-accent {
+    color: var(--navyblue-cl);
+}
+
 /**
   FOOTER
  */
 .footer {
-    color: var(--cloud-cl);
     background-color: var(--navyblue-cl);
 }
 
 .footer-text {
+    color: var(--cloud-cl);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer-logo-accent {
+    color: var(--cloud-cl);
 }
 
 /**
@@ -115,7 +126,7 @@ img {
 .studio-title {
     text-align: center;
     font-size: 36px;
-    line-height: 1.12;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -138,9 +149,6 @@ img {
 
 .hero-btn {
     background-color: var(--iris-cl);
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -151,6 +159,15 @@ img {
 /**
   TEAM
  */
+
+.team {
+    background-color: var(--cloud-cl);
+}
+
+.team-item {
+    background-color: var(--white-cl);
+}
+
 .team-subtitle {
     text-align: center;
 }
@@ -168,12 +185,13 @@ img {
 /**
   FILTERS
  */
-.filter-btn {
+.portfolio-btn {
     color: var(--iris-cl);
+    background-color: var(--cloud-cl);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     background-color: var(--ocaen-cl);
     color: var(--white-cl);
 }
