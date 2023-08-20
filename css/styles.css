@@ -157,6 +157,14 @@ address {
 }
 
 /**
+   FEATURE
+ */
+
+.feature-subtitle {
+    color: var(--navyblue-cl);
+}
+
+/**
   TEAM
  */
 
@@ -182,6 +190,13 @@ address {
   | PORTFOLIO styles
   |============================
 */
+
+/**
+PORTFOLIO
+ */
+.portfolio-subtitle {
+    color: var(--navyblue-cl);
+}
 
 /**
   FILTERS
